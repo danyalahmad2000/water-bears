@@ -8,7 +8,7 @@ import normalBear from "../assets/images/hero-bear-lg.png";
 import stylishBear from "../assets/images/hero-bear-md.png";
 import plusIcon from "../assets/images/tabler-icon-plus.png"
 
-const Book = () => {
+const Breed = () => {
   return (
     <>
       {/* Hero Section  */}
@@ -116,4 +116,4 @@ const Book = () => {
   );
 };
 
-export default Book;
+export default Breed;

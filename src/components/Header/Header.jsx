@@ -19,8 +19,8 @@ const navLinks = [
     display: "About",
   },
   {
-    path: "/book",
-    display: "Book",
+    path: "/breed",
+    display: "Breed",
   },
 ];
 
