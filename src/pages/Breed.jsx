@@ -48,7 +48,7 @@ const Breed = () => {
       {/* Hero Section  */}
 
       <div className="w-full md:w-[858px] gap-[40px] mx-auto mb-[140px] font-[400] flex flex-col">
-        <div className="w-full md:w-[501px] mx-auto">
+        <div className="w-full md:w-[560px] mx-auto">
           <h1 className="text-[47px] md:text-[50px] w-full text-center md:text-left">Choose 2 WaterBears to Breed</h1>
         </div>
 
