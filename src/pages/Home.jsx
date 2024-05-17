@@ -10,7 +10,11 @@ const Home = () => {
     <>
       {/* Hero Section  */}
       <div className="w-full h-full flex flex-row relative">
-        <img className="w-[50px] md:w-[234px] md:h-[390px] absolute left-0 top-48 md:top-20" src={heroLeftImg} alt="" />
+        <img
+          className="w-[50px] md:w-[234px] md:h-[390px] absolute left-0 top-48 md:top-20"
+          src={heroLeftImg}
+          alt=""
+        />
         <div className="w-full md:w-[858px] gap-[40px] mx-auto mt-[157px] font-[400] flex flex-col">
           <div className="w-full md:w-[696px] gap-[11px] mx-auto px-auto font-[400]">
             <h1 className="text-[60px] w-full md:w-[529px] mx-auto text-center md:text-left">
@@ -78,9 +82,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <img className="w-[50px] md:w-[234px] md:h-[390px] absolute right-0 top-48 md:top-20" src={heroRightImg} alt="" />
-        {/* Hero Section  */}
+        <img
+          className="w-[50px] md:w-[234px] md:h-[390px] absolute right-0 top-48 md:top-20"
+          src={heroRightImg}
+          alt=""
+        />
       </div>
+      {/* Hero Section  */}
+
       {/* Carousel  */}
       <Carousel />
       {/* Carousel  */}
