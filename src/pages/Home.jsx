@@ -11,7 +11,7 @@ const Home = () => {
       {/* Hero Section  */}
       <div className="w-full h-full flex flex-row relative">
         <img
-          className="w-[50px] md:w-[234px] md:h-[390px] absolute left-0 top-48 md:top-20"
+          className="w-[50px] md:w-[234px] md:h-[390px] absolute left-0 top-20 md:top-20"
           src={heroLeftImg}
           alt=""
         />
@@ -83,7 +83,7 @@ const Home = () => {
           </div>
         </div>
         <img
-          className="w-[50px] md:w-[234px] md:h-[390px] absolute right-0 top-48 md:top-20"
+          className="w-[50px] md:w-[234px] md:h-[390px] absolute right-0 top-20 md:top-20"
           src={heroRightImg}
           alt=""
         />
