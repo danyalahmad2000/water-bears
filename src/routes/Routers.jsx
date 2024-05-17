@@ -1,14 +1,14 @@
 import React from 'react'
 import {Routes,Route} from "react-router-dom"
 import Home from "../pages/Home"
-import Book from '../pages/Book'
+import Breed from '../pages/Breed'
 
 const Routers = () => {
   return (
     <Routes>
       <Route path ='/' element={<Home/>}/>
       <Route path ='/home' element={<Home/>}/>
-      <Route path ='/book' element={<Book/>}/>
+      <Route path ='/breed' element={<Breed/>}/>
     </Routes>
   )
 }
