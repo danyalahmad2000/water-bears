@@ -35,7 +35,7 @@ const Breed = () => {
             </div>
           </div>
           <div className="w-full h-[68px] flex justify-center items-center text-[36px] rounded-lg bg-[#42bfe8]">
-            Book Now!
+            Breed Now!
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Breed = () => {
 
       <div className="w-full md:w-[858px] gap-[40px] mx-auto mb-[140px] font-[400] flex flex-col">
         <div className="w-full md:w-[501px] mx-auto">
-          <h1 className="text-[50px] w-full text-center md:text-left">Choose 2 Dwarves to Breed</h1>
+          <h1 className="text-[47px] md:text-[50px] w-full text-center md:text-left">Choose 2 WaterBears to Breed</h1>
         </div>
 
         <div className="w-full flex flex-col md:flex-row gap-[20px]">
